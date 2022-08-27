@@ -23,14 +23,8 @@ public class Main {
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
     public static CommonProxy proxy;
 
-    @Mod.Instance("industrial_centralization")
+    @Mod.Instance("industrialcentralization")
     public static Main instance;
-
-    /**
-     * This is the instance of your mod as created by Forge. It will never be null.
-     */
-    @Mod.Instance(Reference.MOD_ID)
-    public static Main INSTANCE;
 
     /**
      * This is the first initialization event. Register tile entities here.

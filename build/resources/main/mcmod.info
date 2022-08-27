@@ -1,7 +1,7 @@
 [
   {
-    "modid": "a",
-    "name": "main",
+    "modid": "industrialcentralization",
+    "name": "Main",
     "description": "",
     "version": "${version}",
     "mcversion": "${mcversion}",
